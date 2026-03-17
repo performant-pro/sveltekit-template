@@ -1,0 +1,42 @@
+/* Outfit variable font */
+@import '@fontsource-variable/outfit';
+
+/* Tailwind v4 — single import replaces @tailwind directives */
+@import 'tailwindcss';
+
+/* ─── Design tokens ─────────────────────────────────────── */
+:root {
+	--font-sans: 'Outfit Variable', sans-serif;
+
+	/* Brand colors — override per project */
+	--color-brand: oklch(55% 0.2 250);
+	--color-brand-light: oklch(70% 0.15 250);
+	--color-brand-dark: oklch(35% 0.2 250);
+
+	/* Neutral scale */
+	--color-surface: oklch(98% 0 0);
+	--color-surface-raised: oklch(96% 0 0);
+	--color-border: oklch(90% 0 0);
+	--color-text: oklch(15% 0 0);
+	--color-text-muted: oklch(50% 0 0);
+}
+
+/* ─── Base styles ────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: var(--font-sans);
+	color: var(--color-text);
+	background-color: var(--color-surface);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	margin: 0;
+	min-height: 100dvh;
+}
