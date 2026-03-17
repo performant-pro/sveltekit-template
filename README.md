@@ -23,7 +23,7 @@ npm install
 
 ### Option B — clone + re-init
 ```bash
-git clone git@github.com:your-github-username/sveltekit-template.git client-name
+git clone git@github-performant:performant-pro/sveltekit-template.git client-name
 cd client-name
 rm -rf .git && git init
 npm install
