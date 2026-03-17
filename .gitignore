@@ -1,0 +1,28 @@
+node_modules/
+
+# SvelteKit build output
+build/
+.svelte-kit/
+
+# Vite
+dist/
+.vite/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test artifacts
+test-results/
+playwright-report/

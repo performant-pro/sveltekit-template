@@ -1,0 +1,9 @@
+# Ignore build artifacts
+build/
+.svelte-kit/
+dist/
+
+# Ignore auto-generated files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
